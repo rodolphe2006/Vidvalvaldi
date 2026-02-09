@@ -2,7 +2,7 @@ import express from "express";
 import allGenres from "./routes/allGenres.js";
 import createGenre from "./routes/createGenre.js";
 import genreByid from "./routes/genreById.js";
-import editGenre from "./routes/EditGenre.js";
+import editGenre from "./routes/editGenre.js";
 import deleteGenre from "./routes/deleteGenre.js";
 const app = express();
 const preFix = "/Vidvaldi";
