@@ -5,7 +5,7 @@ import createGenre from "./routes/createGenre.js";
 import genreByid from "./routes/genreById.js";
 import editGenre from "./routes/editGenre.js";
 import deleteGenre from "./routes/deleteGenre.js";
-
+import cors from "cors";
 dotenv.config();
 
 const app = express();
