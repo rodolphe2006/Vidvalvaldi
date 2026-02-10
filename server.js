@@ -13,6 +13,9 @@ const preFix = "/Vidvaldi";
 
 const port = process.env.PORT || 3000;
 app.use(express.json());
+app.get("/health", (req, res) => {
+  res.json({ status: "ok" });
+});
 app.use(preFix, allGenres);
 app.use(preFix, createGenre);
 app.use(preFix, genreByid);
