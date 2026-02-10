@@ -14,8 +14,8 @@ npm start
 
 ## Endpoints
 
-GET /Vidvaldi
-GET by id /getGenre/:id
+GET /Vidvaldi/genres
+GET by id /Vidvaldi/getGenre/:id
 POST /Vidvaldi/createGenre
 PUT /Vidvaldi/edit/:id
 DELETE /Vidvaldi/deleteGenre/:id
